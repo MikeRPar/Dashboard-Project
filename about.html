@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="about-style.css"></link>
+    <title>About</title>
+  </head>
+  <body>
+    <h3>This project was made by Michael R. Parlacoski</h3>
+    <h3><a href="">Check out my other projects!</a></h3>
+    <h3>View the sourcecode on github <a href="">here</a></h3>
+    <h3>Project Description:</h3>
+    <p>This project is a simple dashboard that allows users to create task lists, notes, and reminders to view on a calendar.</p>
+    <h3>How-to-use Section:</h3>
+    <h4>To-do list board:</h4>
+    <p>To use the To-do list board make a new list by pressing the <button><ion-icon name="add-outline"></ion-icon></button> button.
+      <br>This list can be deleted at anytime by pressing the <button><ion-icon name="trash-outline"></ion-icon></button> button created on the list. 
+      <br>A task can be added onto the list by pressing the <button><ion-icon name="add-outline"></ion-icon></button> button created on the list.
+      <br>Each task will also have its own delete button. As well as a check box that is red for unfinished and green for finished, this can be toggled by clicking on it. 
+      <br>Both tasks and task lists will have a text input for a name/description this can be changed by double clicking and will be uneditable after the cursor hovers off of the input.
+      <br>The user can have 5 task lists with each task list holding 14 tasks.</p> 
+    <h4>Note board</h4>
+    <p>
+      To use the Note board make a new note by pressing the <button><ion-icon name="add-outline"></ion-icon></button> button.
+      <br> Each note has its own delete button to remove it at any time.
+      <br> A note contains a text input that can hold three lines of text.
+      <br> The user can have 7 notes maximum.
+    </p>
+    <h4>Calendar</h4>
+    <p>
+      The Calendar is a simple 12 month calendar display. The current date is displayed on the header under the current month.
+      <br>The month can be decremented or incremented with the previous <button><ion-icon name="chevron-back-outline"></ion-icon></button> and next <button><ion-icon name="chevron-forward-outline"></ion-icon></button> buttons, respectively.
+      <br>Days from the previous or next month will have a gray background while days in the current month have a white background with the except of the current day having a green background.
+      <br>The calendars use is connected to the Reminder board.
+    </p>
+    <h4>Reminder board</h4>
+    <p>
+      The Reminder board holds date reminders for the calendar. 
+      <br>A new reminder can be created by pressing the <button><ion-icon name="add-outline"></ion-icon></button> button.
+      <br>Each reminder contains a color input <input type="color"></input>,
+      <br>a text input <input></input>,
+      <br>a date input <input type="date"></input>,
+      <br>and a delete button <button><ion-icon name="close-outline"></ion-icon></button> so that it can be deleted at anytime.
+      <br>Once a reminder is given a date it will be added to the calendar.
+      <br>When a reminder is deleted from this board it is automatically removed from the calendar.
+      <br>Reminders are color coded so they can be displayed on its date on the calendar.
+      <br>The description for a reminder will show when the user hovers over the color in the calendar.
+      <br>Attributes for the reminder can be changed at any time and its changes will be reflected on the calendar.
+      <br>The user can have 11 reminders maximum.
+    </p>
+    <p>
+
+    </p>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

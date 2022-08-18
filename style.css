@@ -1,0 +1,357 @@
+*{
+    font-family: "Fira sans", sans-serif;
+}
+
+body{
+    background-color:#4F5D75;
+}
+
+
+#toDoHeader{
+    padding: 0px 0px 0px 20px;
+}
+
+#toDoContainer{
+    padding-left: 22px;
+}
+
+#toDo{
+    padding: 0px 0px 0px 5px;
+    display: inline-block;
+    float: left;
+    border-color: #303633;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 5px;
+    background-color: beige;
+    width:72%;
+    height:500px;
+    
+}
+
+#addToDo{
+    border:none;
+    background-color: white;
+    font-size: medium;
+    color:black;
+    border-radius: 5px;
+}
+
+#addToDo:hover{
+    background-color: #DEDEDE;
+}
+
+#toDoList{
+    background-color: #009DDC;
+    float: left;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px #564D4A solid;
+    margin-right: 25px;
+}
+
+#listHeader{
+    margin-bottom: 20px;
+}
+
+#listName{
+    appearance: none;
+    border: none;
+    outline:none;
+    border-radius: 5px;
+    font-size:medium;
+    width: 100px;
+    margin-right: 50px;
+    background-color: #e0e0e0;
+}
+
+#task{
+    margin-top: 3px;
+}
+
+#taskDesc{
+    appearance: none;
+    border:none;
+    outline: none;
+    background-color: #e0e0e0;
+    margin-right: 5px;
+    height: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+#taskCheck{
+    width: 10px;
+    height: 22px;
+    float: left;
+    background-color: black;
+}
+
+#addNote{
+    border:none;
+    background-color: white;
+    font-size: medium;
+    color:black;
+    border-radius: 5px;
+}
+
+#addNote:hover{
+    background-color: #DEDEDE;
+}
+
+#notes{
+    display: inline-block;
+    background-color: beige;
+    width:25%;
+    height:500px;
+    border-radius: 10px;
+    border: solid;
+    border-color: #303633;
+    border-width: 5px;
+    padding-left: 10px;
+    margin-left: 15px;
+}
+
+#noteContainer{
+    height: 400px;
+    display:inline-block;
+}
+
+#note{
+    border: 1px black solid;
+    display: block;
+    background-color: white;
+    margin-top: 5px;
+    border-radius: 5px;
+    height: 54px;
+}
+
+#noteDataContainer{
+    float:right;
+    height: 54px;
+    
+}
+
+#noteData{
+    border: none;
+    display: inline-block;
+    width: 400px;
+    height: 54px;
+    outline: none;
+    margin-left: 10px;
+
+}
+
+#calendar{
+    appearance: none;
+    align-items: center;
+    justify-content: center;
+    float:left;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 60px;
+    width:60%;
+    height:400px;
+}
+
+
+#calendarTop{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #9E0031;
+    width: 1000px;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    justify-content: center;
+    border-top: solid black 4px;
+    border-left: solid black 4px;
+    border-right: solid black 4px;
+}
+
+#previous{
+    display: flex;
+    width:30px;
+    height:20px;
+    margin-right: 10px;
+}
+
+#next{
+    display: flex;
+    width:30px;
+    height:20px;
+    margin-left: 10px;
+}
+
+#dateDisplay{
+    background-color: #9E0031;
+    width: 1000px;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+    border-left: solid black 4px;
+    border-right: solid black 4px;
+}
+
+.weekdays{
+    display: flex;
+    background-color: #EF798A;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+    border-left: solid black 4px;
+    border-right: solid black 4px;
+}
+
+.weekdays div{
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+#days{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1000px;
+    border-left: solid black 4px;
+    border-right: solid black 4px;
+    border-bottom: solid black 4px;
+}
+
+.prev-month-date{
+    padding-left: 5px;
+    width: 135px;
+    height:40px;
+    border: solid black 1px;
+    background-color: #B8C4BB;
+}
+
+.next-month-date{
+    padding-left: 5px;
+    width: 135px;
+    height:40px;
+    border: solid black 1px;
+    background-color: #B8C4BB;
+}
+
+.day{
+    padding-left: 5px;
+    width: 135px;
+    height:40px;
+    border: solid black 1px;
+    background-color: white;
+
+}
+
+#today{
+    background-color: #CCF5AC;
+    padding-left: 5px;
+    width: 135px;
+    height:40px;
+    border: solid black 1px;
+}
+
+.calendar-reminder{
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.reminder-day-container{
+    display: inline-block;
+}
+
+#reminders{
+    float: left;
+    display: inline-block;
+    background-color: beige;
+    border: solid #303633;
+    border-width: 5px;
+    border-radius: 10px;
+    width:33%;
+    height:400px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#reminderHeader{
+    padding-left: 20px;
+}
+
+#reminderContainer{
+    margin-left: 20px;
+}
+
+#color{
+    width:28px;
+    height:27px;
+    border:none;
+    margin-right: 10px;
+    
+}
+
+#reminderDesc{
+    outline: none;
+    border: none;
+    background-color: #e0e0e0;
+    margin-right: 10px;
+}
+
+#dateInput{
+    appearance: none;
+    border: none;
+    background-color: #e0e0e0;
+    margin-right: 10px;
+}
+
+#deleteBtn{
+    appearance: none;
+    border: none;
+    background-color: white;
+}
+
+#deleteBtn:hover{
+    background-color: #DEDEDE;
+}
+
+#addReminder{
+    appearance: none;
+    border: none;
+    background-color: white;
+    font-size: medium;
+    color: black;
+    border-radius: 5px;
+}
+
+#addReminder:hover{
+    background-color: #DEDEDE;
+}
+
+#about{
+    appearance: none;
+    width: 50px;
+    height: 15px;
+    border: solid #5eff81;
+    border-radius: 5px;
+    margin-top: 5px;
+    display: inline-block;
+    text-align: center;
+    background-color: #f7ff5e;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    margin-left: 900px;
+    margin-top: 20px;
+}
+
+
+
+
